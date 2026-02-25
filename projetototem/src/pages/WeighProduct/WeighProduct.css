@@ -1,0 +1,17 @@
+.weigh-icon-content {
+  height: 100vh;          
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.weigh-icon {
+  font-size: 180px;   
+  line-height: 1; 
+}
+
+.final-text {
+  font-size: var(--font-body);
+  color: var(--color-primary);
+  text-align: center;
+}

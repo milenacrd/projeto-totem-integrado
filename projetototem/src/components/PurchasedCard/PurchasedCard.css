@@ -1,0 +1,50 @@
+.purchase-card {
+  width: 100%;
+  max-width: 640px;
+  height: 600px;
+
+  background-color: var(--color-white);
+  border: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+
+  text-align: center;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.purchase-card:active {
+  transform: scale(0.97);
+}
+
+.purchase-icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #CFEFF4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.purchase-icon-content {
+  font-size: 140px;
+  line-height: 1;
+}
+
+.purchase-title {
+  font-family: var(--font-family);
+  font-size: clamp(32px, 3.5vw, 44px);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.purchase-description {
+  font-size: clamp(22px, 2.5vw, 30px);
+  color: #4a4a4a;
+}

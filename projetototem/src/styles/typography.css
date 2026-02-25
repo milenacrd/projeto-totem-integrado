@@ -1,0 +1,32 @@
+.title {
+  font-family: var(--font-family);
+  font-size: var(--font-title);
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.titles {
+  color: var(--color-titles);
+   font-family: var(--font-family);
+  font-size: var(--font-title);
+  font-weight: 700;
+   text-align: center;
+}
+.text {
+  font-family: var(--font-family);
+  font-size: var(--font-body);
+  color: var(--color-white);
+  text-align: center;
+}
+.subtitle {
+  font-size: var(--font-body);
+  color: var(--color-primary);
+  text-align: center;
+}
+.subtitleazul{
+  font-size: var(--font-body);
+  color: var(--color-secondary);
+  text-align: center;
+}
+

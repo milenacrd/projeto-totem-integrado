@@ -1,0 +1,23 @@
+:root {
+  /* Cores */
+  --color-primary: #1E3A6F;
+  --color-secondary: #00BCD4;
+  --color-white: #FFFFFF;
+  --color-gray: #B3B3B5;
+  --color-backgroundgray: #F5F7FA;
+  --color-titles: #1F2C56; 
+
+  /* Tipografia */
+  --font-family: 'Inter', sans-serif;
+
+  --font-title: clamp(32px, 4vw, 52px);
+  --font-body: clamp(18px, 2.5vw, 28px);
+  --font-button: clamp(26px, 4vw, 48px);
+
+  /* Espaçamentos */
+  --space-lg: 40px;
+  --space-xl: 64px;
+
+  /* Bordas */
+  --radius-md: 16px;
+}

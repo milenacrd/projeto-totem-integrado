@@ -1,0 +1,16 @@
+.header2 {
+  width: 100%;
+  height: 180px; 
+
+  background-color: #F8F9FB; 
+
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+}
+
+.Logo2 {
+  max-width: 320px;
+  width: 60%;
+  height: auto;
+}

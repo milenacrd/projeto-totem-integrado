@@ -1,0 +1,14 @@
+.purchase-options {
+  width: 100%;
+  max-width: 1400px; 
+  
+  display: grid;
+  grid-template-columns: repeat(2, minmax(480px, 1fr));
+  gap: 80px;
+}
+
+.final-text {
+  font-size: var(--font-body);
+  color: var(--color-primary);
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.design2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.design2 img {
+  max-width: 80%;
+}
